@@ -2,6 +2,8 @@
 
 A small web app that helps you track your daily outfits and moods! Perfect for fashion enthusiasts who want to remember their favorite combinations and how they felt wearing them. Made for the wife
 
+![screenshot](/images/screenshot.png)
+
 ## ✨ Features
 
 - 📅 Calendar-based outfit tracking
