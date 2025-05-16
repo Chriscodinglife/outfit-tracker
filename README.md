@@ -15,20 +15,41 @@ A small web app that helps you track your daily outfits and moods! Perfect for f
 
 ### Prerequisites
 
-- Node.js (latest LTS version)
+- fnm (Fast Node Manager)
 - npm or yarn
 - A Firebase account
 
 ### 🛠️ Setup
 
-1. Clone the repository:
+1. Install fnm if you haven't already:
+
+```bash
+# macOS with Homebrew
+brew install fnm
+
+# Add to your ~/.zshrc or ~/.bashrc:
+eval "$(fnm env --use-on-cd)"
+```
+
+2. Install and use Node.js with fnm:
+
+```bash
+# Install Node.js LTS
+fnm install 20
+fnm use 20
+
+# Verify installation
+node --version # Should show v20.x.x
+```
+
+3. Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/outfit-tracker-app.git
 cd outfit-tracker-app
 ```
 
-2. Install dependencies:
+4. Install dependencies:
 
 ```bash
 npm install
@@ -36,7 +57,7 @@ npm install
 yarn install
 ```
 
-3. Create a `.env` file in the root directory with your Firebase configuration:
+5. Create a `.env` file in the root directory with your Firebase configuration:
 
 ```env
 VITE_FB_API_KEY=your_api_key
@@ -48,7 +69,7 @@ VITE_FB_APP_ID=your_app_id
 VITE_FB_MEASURE_ID=your_measurement_id
 ```
 
-4. Start the development server:
+6. Start the development server:
 
 ```bash
 npm run dev
@@ -56,7 +77,7 @@ npm run dev
 yarn dev
 ```
 
-5. Open your browser and navigate to `http://localhost:5173`
+7. Open your browser and navigate to `http://localhost:5173`
 
 ## 💡 How to Use
 
